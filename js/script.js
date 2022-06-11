@@ -60,11 +60,40 @@ else if(num === secondNum){
 }
 
 else if (firstNum > num && secondNum > num){
-    alert("your numbers are greater than constant number")
+    alert("your two numbers are greater than constant number")
     alert(diff1);
     alert(diff2);
 } 
 
+else if(firstNum < num && secondNum < num){
+    alert("Your two numbers are lesser than constant number");
+    alert(diff1);
+    alert(diff2);
+}
+
+else if (firstNum > num){
+    alert("Your number is greater than constant number");
+    alert(diff1);
+} 
+
+else if(firstNum < num){
+    alert("Your first number is lesser than constant number");
+    alert(diff1);
+}
+
+else if (secondNum > num){
+    alert("Your second number is greater than constant number")
+    alert(diff2);
+} 
+
+else if(secondNum < num){
+    alert("Your second number is lesser than constant number");
+    alert(diff2);
+}
+
+else{
+    alert("discuss another option");
+}
 
 
 
